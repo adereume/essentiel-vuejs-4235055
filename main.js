@@ -63,7 +63,7 @@ const app = createApp({
         }
     },
 
-    computed: {
+    computed: { // Propriété calculé, mise en cache tant qu'il n'y a pas de changement
         title() {
             return this.product + " " + this.type
         }
