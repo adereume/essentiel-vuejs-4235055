@@ -17,7 +17,14 @@ export default {
         <a href="">CONTACT</a>
     </nav>
     <section>
-        <Home />
+        <Home>
+            <template v-slot:welcome>
+                <!-- Ceci sera intégré au slot avec le name=welcome -->
+                <p>Bienvenue sur Pizza Deluxe</p>
+            </template>
+            <!-- Ceci sera intégré à l'espace réservé slot -->
+            <p>Offre du jour <br> PROMOTION sur la Pizza Royale</p>
+        </Home>
     </section>
 </template>
 
