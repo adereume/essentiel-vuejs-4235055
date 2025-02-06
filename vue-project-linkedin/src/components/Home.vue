@@ -1,6 +1,13 @@
 <template>
     <div id="intro"></div>
-    <div id="product-menu"></div>
+    <h1>Notre Carte</h1>
+    <div id="product-menu">
+        <Product />
+        <Product />
+        <Product />
+        <Product />
+        <Product />
+    </div>
 </template>
 
 <script>
