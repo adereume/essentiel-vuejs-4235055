@@ -120,7 +120,8 @@ export default {
             <!-- Description du produit -->
             <div class="product-description">
                 <h1>
-                    {{ title }}
+                    <!--{{ title }} -->
+                     {{ $route.params.nameProduct  }}
                     <img v-show="bestseller" class="img-best-seller" src="../assets/images/best-seller.png" />
                 </h1>
                 <p v-show="notAvailable">Momentanément indisponible</p>
